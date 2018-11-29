@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        {% block stylesheets %}
+            <link rel="stylesheet" href="/css/app.css">
+        {% endblock %}
+        <title>{% block title %}Simple MVC{% endblock %}</title>
+        <style>
+          body {
+              display: flex;
+              min-height: 100vh;
+              flex-direction: column;
+          }
+          main {
+              flex: 1;
+          }
+        </style>
+    </head>
+    <body class="grid-container">
+        {% block nav %}
+            <nav class="grid-x align-justify">
+                {{ include('partials/nav.html.twig') }}
+            </nav>
+        {% endblock %}
+
+        <main class="grid-y align-center">
+            {% block content %}{% endblock %}
+        </main>
+
+        {% block footer %}
+            <footer class="text-center padding-vertical-1">
+                {{ include('partials/footer.html.twig') }}
+            </footer>
+        {% endblock %}
+
+        {% block scripts %}{% endblock %}
+    </body>
+</html>

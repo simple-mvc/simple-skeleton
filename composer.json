@@ -1,0 +1,10 @@
+{
+  "autoload" : {
+    "classmap": ["app", "core"],
+    "files": ["core/helpers.php"]
+  },
+  "require": {
+    "symfony/var-dumper": "^4.1",
+    "twig/twig": "^2.0"
+  }
+}

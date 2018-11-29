@@ -1,0 +1,31 @@
+{
+  "name": "simple-skeleton",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "browser-sync start --proxy 'simple.test' --files 'public'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simple-skeleton/simple.git"
+  },
+  "author": "Sébastien Pereda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simple-skeleton/simple/issues"
+  },
+  "homepage": "https://github.com/simple-skeleton/simple#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "foundation-sites": "^6.5.1",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-purgecss": "^1.1.1",
+    "gulp-sass": "^4.0.2",
+    "motion-ui": "^2.0.3"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
