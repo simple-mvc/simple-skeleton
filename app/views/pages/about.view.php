@@ -3,9 +3,9 @@
   <div class="grid-x align-center">
     <div class="small-10 medium-8">
       <p class="lead">Simple MVC is a PHP starter project for educational purpose or small projects.</p>
-      <p>simple-skeleton includes only the core features.</p>
-      <p>simple provides an admin area to CRUD basic items.</p>
-      <p>simple-cms adds a simple blog management.</p>
+      <p class="lead"><strong>simple-skeleton</strong> includes only the core features.</p>
+      <p class="lead"><strong>simple</strong> provides an admin area to CRUD basic items.</p>
+      <p class="lead"><strong>simple-cms</strong> adds a simple blog management.</p>
     </div>
   </div>
 <?php require __DIR__.'/../partials/footer.php'; ?>
